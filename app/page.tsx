@@ -13,21 +13,30 @@ import { Skills } from "./components/sections/Skills";
 const projects = [
   {
     id: "1",
-    name: "E-Commerce Platform",
-    image: "/images/p1.jpg",
-    stack: ["Next.js", "Tailwind", "Prisma"],
+    name: "E-Commerce Platform Role Based",
+    image: "/images/p3.png",
+    stack: ["Next.js", "Tailwind","React","ShadcnUI", "Node.js","Prisma","Typescript","PostgreSQL"],
+     githubFrontend: "https://github.com/SHARIFA-AKHTER/mom-baby-wear-frontend",
+    githubBackend: "https://github.com/SHARIFA-AKHTER/mom-baby-wear-backend",
+    live: "https://mom-baby-wear-frontend.vercel.app",
   },
   {
     id: "2",
-    name: "Chat Application",
-    image: "/images/p2.jpg",
-    stack: ["Socket.io", "React", "Node.js"],
+    name: "Volunteers Management System",
+    image: "/images/p4.png",
+    stack: ["MongoDB","Firebase", "React", "Node.js","Tailwind","Tailwind"],
+    githubFrontend: "https://github.com/SHARIFA-AKHTER/ass-ten-volunteer-management-client",
+    githubBackend: "https://github.com/SHARIFA-AKHTER/ass-ten-volunteer-management-server.git",
+    live: "https://volunteer-management-30e05.firebaseapp.com",
   },
   {
     id: "3",
-    name: "AI SaaS Dashboard",
-    image: "/images/p3.jpg",
-    stack: ["OpenAI", "Next.js", "ShadcnUI"],
+    name: "Hr Management ManageMate",
+    image: "/images/p2.png",
+    stack: [ "Next.js", "ShadcnUI","MongoDB","Firebase", "React", "Node.js","Tailwind","Redux","ExpressJS"],
+     githubFrontend: "https://github.com/SHARIFA-AKHTER/assignment-twelve-client-side",
+    githubBackend: "https://github.com/SHARIFA-AKHTER/assignment-twelve-server-side",
+    live: "https://assignment-twelve-5e80a.firebaseapp.com",
   },
 ];
 
@@ -47,7 +56,7 @@ export default function Home() {
           >
             <h2 className="text-3xl font-bold mb-6 border-l-4 border-blue-600 pl-4">About Me</h2>
             <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
-              My journey started with a simple "Hello World" back in 2021. Since then, 
+              My journey started with a simple "Hello World" back in 2023. Since then, 
               I fell in love with the art of creating things that live on the internet. 
               I enjoy turning complex problems into simple, beautiful, and intuitive designs.
             </p>
@@ -68,13 +77,13 @@ export default function Home() {
             <h3 className="text-xl font-bold mb-4 italic">Educational Qualification</h3>
             <div className="space-y-4">
               <div>
-                <p className="font-semibold">B.Sc in Computer Science</p>
+                <p className="font-semibold">BA in Political Science</p>
                 <p className="text-sm text-slate-500">University of Excellence | 2020 - 2024</p>
               </div>
               <hr />
               <div>
                 <p className="font-semibold">Full Stack Web Development</p>
-                <p className="text-sm text-slate-500">Programming Hero | 2023 (Certified)</p>
+                <p className="text-sm text-slate-500">Programming Hero | 2025 (Certified)</p>
               </div>
             </div>
           </motion.div>
@@ -94,9 +103,9 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-8 text-center">Work Experience</h2>
         <div className="relative border-l border-slate-300 ml-4 space-y-8">
           <div className="pl-8 relative">
-            <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-1" />
+            <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-2.25 top-1" />
             <h4 className="font-bold">Frontend Developer Intern</h4>
-            <p className="text-sm text-slate-500">Tech Solutions Ltd | Jan 2023 - June 2023</p>
+            <p className="text-sm text-slate-500">Tech Solutions Ltd | Jan 2024 - June 2023</p>
             <p className="mt-2">Worked on building responsive UI components using React and Tailwind.</p>
           </div>
         </div>
