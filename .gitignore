@@ -41,11 +41,3 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
-
-# Block malware files
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
